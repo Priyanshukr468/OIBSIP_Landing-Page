@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-
 ]
 nav{
     display: flex;
@@ -13,7 +12,6 @@ nav{
 nav logo{
     width: 150px;
 }
-
 .header{
     min-height: 100vh;
     width: 100%;
@@ -36,7 +34,6 @@ nav logo{
     text-decoration: none;
     font-size: 20px;
     font-style: Bold;
-
 }
 .nav-links ul li::after{
     content: '';
@@ -61,8 +58,7 @@ nav logo{
 }
 .text-box h1{         
     font-size: 58px;
-    font-style: bold;
-    
+    font-style: bold;    
 }
 .text-box p{
     margin: 20px 0 20px;
@@ -87,7 +83,6 @@ nav logo{
 }
 nav .fa{
     display: none;
-
 }
 @media(max-width: 700px){
     .text-box h1{
@@ -105,7 +100,6 @@ nav .fa{
         right: -200px;
         text-align: left;
        z-index: 2; 
-
     }
         nav .fa{
             display: block;
@@ -155,7 +149,6 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -165,7 +158,6 @@ h3{
         flex-direction: column;
     }
 }
-
 
 /*----campus----*/
 
@@ -257,11 +249,9 @@ h3{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
-    font-weight: 600;
-
+    font-weight: 600;   
 }
